@@ -72,26 +72,24 @@ footer > p {
 }
 
 
-/* @media screen and (max-width: 500px) {
-    section {
+@media screen and (max-width: 500px) {
+    .main {
         display: block;
     }
-    .main-content {
-        display: none;
+    
+    
+    a {
+        display: block;
+        margin: 10px;
+    }
+    
+    header {
+        background-size: contain;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 501px) and (min-width: 768px){
-    section {
-        display: block;
-    }
-    .main-content {
-        display: block;
-    }
-}
 
-@media screen and (min-width: 769px) {
-    .right-panel {
-        background: red;
-    }
-} */
