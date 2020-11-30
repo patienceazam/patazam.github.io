@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: url('../images/paty.jpg');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: red;
+    margin: 70px;
+}
+
+.button {
+    color: white;
+    font-size: 18px;
+    background-color: rgb(253, 14, 14);
+}
+p {
+    color: #000;
+}
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    line-height: 15em;
+}
+
+h2, h3{
+    color: rgb(252, 7, 48);
+}
+.main {
+    display: flex;
+    margin: 20px;
+}
+.left {
+    flex: 1;
+}
+.right {
+    flex: 1;
+}
+ 
+img {
+    width: 400px;
+    height: 200px;
+}
+
+footer {
+    background: #000;
+    height: 150px;
+    position: relative;
+}
+footer > p {
+    color: #fff;
+    text-align: center;
+}
+.main {
+    display: flex;
+}
+
+
+/* @media screen and (max-width: 500px) {
+    section {
+        display: block;
+    }
+    .main-content {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 501px) and (min-width: 768px){
+    section {
+        display: block;
+    }
+    .main-content {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .right-panel {
+        background: red;
+    }
+} */
